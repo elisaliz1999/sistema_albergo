@@ -15,6 +15,7 @@
 <body>
     <h1>Benvenuto! <br> Welcome! <br> Willkommen! <br> Добро пожаловать! <br> Bienvenue! </h1>
     <div>
+        ${msg}
         <form action="<%= request.getContextPath()%>/ControllerLogin" method="post">
             <table style="width: 20%">
                 <tr>

@@ -14,6 +14,16 @@
         <title>Hotel Bliss Rooms</title>
     </head>
     <body>
-        <h1> Welcome user </h1>
+        <h1> Welcome user ${lista}</h1>
+        <div>
+                        <c:forEach items= "${lista}" var="stanza">
+                        
+                          
+                       
+                       
+                         <option name="stanzaScelta">${stanza.id}</option>
+                       
+                    </c:forEach>
+        </div>
     </body>
 </html>

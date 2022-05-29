@@ -4,6 +4,8 @@
  */
 package com.mycompany.prjsistemaalbergo.model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author elisa
@@ -15,6 +17,7 @@ public class Users {
     private String telefono;
     private String email;
     private String password;
+    private ArrayList<Room> soggiornoUser;
 
     public String getPassword() {
         return password;
@@ -62,6 +65,14 @@ public class Users {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public ArrayList<Room> getSoggiornoUser() {
+        return soggiornoUser;
+    }
+
+    public void setSoggiornoUser(ArrayList<Room> soggiornoUser) {
+        this.soggiornoUser = soggiornoUser;
     }
     
 }

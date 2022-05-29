@@ -4,5 +4,7 @@ com\mycompany\prjsistemaalbergo\dao\DAORoom.class
 com\mycompany\prjsistemaalbergo\model\DB.class
 com\mycompany\prjsistemaalbergo\model\Room.class
 com\mycompany\prjsistemaalbergo\controller\ControllerLogin.class
+com\mycompany\prjsistemaalbergo\model\Reservations.class
 com\mycompany\prjsistemaalbergo\services\AES256.class
 com\mycompany\prjsistemaalbergo\model\Users.class
+com\mycompany\prjsistemaalbergo\controller\ControllerAvailableRoom.class
