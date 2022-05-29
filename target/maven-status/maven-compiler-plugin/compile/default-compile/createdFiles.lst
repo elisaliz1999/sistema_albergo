@@ -1,0 +1,8 @@
+com\mycompany\prjsistemaalbergo\controller\ControllerRegistration.class
+com\mycompany\prjsistemaalbergo\dao\DAOUser.class
+com\mycompany\prjsistemaalbergo\dao\DAORoom.class
+com\mycompany\prjsistemaalbergo\model\DB.class
+com\mycompany\prjsistemaalbergo\model\Room.class
+com\mycompany\prjsistemaalbergo\controller\ControllerLogin.class
+com\mycompany\prjsistemaalbergo\services\AES256.class
+com\mycompany\prjsistemaalbergo\model\Users.class
